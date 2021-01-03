@@ -216,7 +216,7 @@ struct ImguiRenderer {
         : width_(width)
         , height_(height)
         , camera_(glm::vec3(0.0f, 0.0f, 3.0f))
-        , shader_("5.1.framebuffers.vs", "5.1.framebuffers.fs")
+        , shader_("assets/5.1.framebuffers.vs", "assets/5.1.framebuffers.fs")
     {
         // camera.Zoom = 45;
         Allocate();
