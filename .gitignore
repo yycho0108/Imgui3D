@@ -111,5 +111,4 @@ tags
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,cmake,c++,vim,git
 .clangd/
-third_party/
 build/

@@ -1,4 +1,4 @@
-# ImguiFBO3D
+# Imgui3D
 
 FBO based Imgui 3D renderer example.
 
