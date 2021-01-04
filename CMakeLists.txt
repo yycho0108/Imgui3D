@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(ImguiFBO3D)
+project(Imgui3D)
 
 # configure
 set(CMAKE_CXX_STANDARD 17)
@@ -10,7 +10,7 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
 # add our code
-add_subdirectory(imgui_fbo_3d)
+add_subdirectory(imgui_3d)
 
 # add third party
 add_subdirectory(third_party)
